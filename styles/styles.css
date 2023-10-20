@@ -1,0 +1,33 @@
+:root {
+    --amarelo: #FFD900;
+    --roxo: #514988;
+    --rosa: ##E33881;
+    --branco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--amarelo);
+}
+
+.texto {
+    display: flex;
+}
+
+.container_texto {
+    background-color: var(--roxo);
+}
+
+.container_video {
+    display: flex;
+}
+
+.ingressos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
