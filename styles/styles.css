@@ -1,33 +1,104 @@
 :root {
     --amarelo: #FFD900;
+    --amarelo_texto: #F3C61F;
     --roxo: #514988;
-    --rosa: ##E33881;
+    --rosa: #E33881;
     --branco: #FFFFFF;
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     background-color: var(--amarelo);
+    padding: 15px 30px;
 }
 
 .texto {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
 
 .container_texto {
     background-color: var(--roxo);
+    color: var(--branco);
+    text-align: center;
 }
 
-.container_video {
+.container_texto h1 {
+    color: var(--amarelo);
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.container_texto h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.container_texto p {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.container_contador {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contador {
+    display: flex;
+}
+
+.container_contador p {
+    color: var(--rosa);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contador .cont_texto {
+    color: var(--roxo);
+    font-size: 45px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.video {
+    display: flex;
+   margin-top: 15px;
 }
 
 .ingressos {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 25px 0;
+    padding: 0 50px;
 }
+
+.ingressos h2 {
+    margin-bottom: 15px;
+    color: var(--amarelo_texto);
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: var(--roxo);
+    border-radius: 10px;
+    border: none;
+    padding: 35px 70px;
+    font-size: 30px;
+    color: var(--branco);
+    font-weight: bold;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
