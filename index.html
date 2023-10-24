@@ -43,10 +43,14 @@
     <section class="ingressos">
         <div>
             <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
-            <img src="./assets/quinta.svg" alt="Quinta-feira" width="180px">
-            <img src="./assets/sexta.svg" alt="Sexta-feira" width="180px">
-            <img src="./assets/sabado.svg" alt="Sábado" width="180px">
-            <img src="./assets/domingo.svg" alt="Domingo" width="180px">
+            <img src="./assets/quinta.svg" onmouseover="cardHighlight('#quinta')"
+                onmouseleave="cardHighlight('#quinta')" id="quinta" alt="Quinta-feira" width="180px">
+            <img src="./assets/sexta.svg" onmouseover="cardHighlight('#sexta')" onmouseleave="cardHighlight('#sexta')"
+                id="sexta" alt="Sexta-feira" width="180px">
+            <img src="./assets/sabado.svg" onmouseover="cardHighlight('#sabado')"
+                onmouseleave="cardHighlight('#sabado')" id="sabado" alt="Sábado" width="180px">
+            <img src="./assets/domingo.svg" onmouseover="cardHighlight('#domingo')"
+                onmouseleave="cardHighlight('#domingo')" id="domingo" alt="Domingo" width="180px">
         </div>
         <div class="botao">
             <button>GARANTA O SEU!</button>
@@ -54,6 +58,7 @@
     </section>
 
     <script src="./js/contador.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
