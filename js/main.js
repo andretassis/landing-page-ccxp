@@ -1,3 +1,5 @@
+let ingressos = []
+
 function cardHighlight(selector) {
     let element = document.querySelector(selector);
 
@@ -39,6 +41,26 @@ function keyboardCardHighlight() {
             ingresso4.classList.add('card_highlight');
         }
     })
+}
+
+function ingressoSelecionado(selector) {
+    let element = document.querySelector(selector)
+
+    element.classList.toggle('selecionado')
+
+    if (ingressos.includes(selector)) {
+        ingressos.pop(selector)
+    } else {
+        ingressos.push(selector)
+    }
+
+    console.log(ingressos)
+}
+
+function mostrarIngressos() {
+    if (ingressos.length > 0) {
+        alert("Ingressos selecionados: " + ingressos)
+    }
 }
 
 keyboardCardHighlight()
