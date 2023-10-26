@@ -25,4 +25,4 @@ Projeto de uma landing page para a CCXP 2022.
 
 ## Deploy
 
-Link do deploy:
+Link do deploy: https://landingpage-ccxp22.netlify.app/
