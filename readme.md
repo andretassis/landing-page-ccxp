@@ -9,6 +9,9 @@ Projeto de uma landing page para a CCXP 2022.
 - Contador de dias, horas, minutos e segundo até a data do evento;
 - Há um highlight na imagem do ingresso a medida que o usuário passa o mouse sobre elas;
 - O mesmo highlight ocorre caso o usuário aperte os números de 1 a 4 no teclado. (1 = quinta-feira, 2 = sexta-feira, 3 = sábado e 4 = domingo)
+- Ao clicar nos ingressos, os que estão selecionados aparecem uma borda em verde. Se clicar novamente, há reversão da seleção e a borda desaparece.
+- Ao selecionar um ou mais ingressos e clicar no botão "Garanta o seu!", uma mensagem de alerta aparece na tela indiciando os ingressos selecionados.
+- Há um formulário para o usuário preencher com o e-mail e receber novidades.
 
 ## Documentação de cores
 
