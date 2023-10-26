@@ -53,8 +53,6 @@ function ingressoSelecionado(selector) {
     } else {
         ingressos.push(selector)
     }
-
-    console.log(ingressos)
 }
 
 function mostrarIngressos() {

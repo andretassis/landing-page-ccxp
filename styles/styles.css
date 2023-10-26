@@ -110,3 +110,36 @@ button {
 .selecionado {
     border: 3px solid green;
 }
+
+.newsletter {
+        background-color: var(--amarelo);
+        padding: 15px 30px;
+        text-align: center;
+}
+
+.newsletter input {
+    margin-right: 50px;
+}
+
+.email {
+    padding: 10px 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--roxo);
+    color: var(--branco);
+}
+
+.submit {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--roxo);
+    color: var(--branco);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.email::placeholder {
+    color: var(--branco);
+}
